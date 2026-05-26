@@ -1,0 +1,19 @@
+\begin{table}[H]\centering\caption{Baseline regression}\label{tab:core}
+\scriptsize\begin{threeparttable}
+\begin{tabular}{lcccccc}\toprule
+ & (1) & (2) & (3) & (4) & (5) & (6) \\
+Variable & Emp\_sum & Emp\_sum & Emp\_h & Emp\_h & Emp\_l & Emp\_l \\ \midrule
+AI & 0.0392*** & 0.0974*** & 0.0165*** & 0.0429*** & -0.0184*** & -0.0375*** \\
+ & (4.6089) & (4.7038) & (3.7306) & (3.5858) & (-4.0311) & (-3.0765) \\
+AI $\\times$ Overedu &  & -0.3000*** &  & -0.1337** &  & 0.0969* \\
+ &  & (-3.1504) &  & (-2.5624) &  & (1.8146) \\
+Overedu &  & -0.1319 &  & 0.1889*** &  & -0.1235 \\
+ &  & (-1.4270) &  & (2.6698) &  & (-1.6182) \\
+\midrule
+Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+Firm/industry/year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+Observations & 10563 & 10563 & 9054 & 9054 & 9054 & 9054 \\
+$R^2$ & 0.9665 & 0.9666 & 0.8050 & 0.8055 & 0.7707 & 0.7709 \\
+\bottomrule\end{tabular}
+\begin{tablenotes}\footnotesize \item Notes: t statistics clustered at the firm level are reported in parentheses. *, **, and *** denote significance at 10\%, 5\%, and 1\%.\end{tablenotes}
+\end{threeparttable}\end{table}
